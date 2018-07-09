@@ -11,7 +11,7 @@ ________________________________________________________________________________
 2. From the command prompt, navigate to the repository/directory where the directories 'routes', 'stops', 'timings' and the "nextdeparture.go" file located
 
 
-3. Run the command "go run nextdeparture.go "<Bus Route Name>" "<Bus Stop Name>" "<Direction>"
+3. Run the command "go run nextdeparture.go "Bus Route Name" "Bus Stop Name" "Direction"
 
    Example : go run nextdeparture.go "METRO Blue Line" "Target Field Station Platform 1" "south"
 
