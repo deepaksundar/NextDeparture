@@ -9,6 +9,10 @@ import (
 	"nextdeparture/timings"
 )
 
+
+
+
+
 func main() {
 
 	/*routeName := "METRO Blue Line"
@@ -37,6 +41,6 @@ func main() {
 	if nextDeparture == 0 {
 		fmt.Println(int(earliestTime.Sub(time.Now().UTC()).Seconds()), "Seconds")
 	}else{
-		fmt.Println(nextDeparture, "Minutes")
+		fmt.Println(nextDeparture, " -- Minutes")
 	}
 }
